@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+}
+.one {
+    height: 300px;
+    padding: auto auto;
+    background: palegoldenrod;
+    margin: 10px;
+    box-sizing:border-box;
+    padding-top: 120px;  
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.two,
+.three {
+    width: 50%;
+    height: 600px;
+    padding: auto auto;
+    background: tomato;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    padding: auto auto;
+    margin: 10px;
+    background: radial-gradient(at bottom left, darkorange 0%, crimson 25%, midnightblue 100%)
+}
